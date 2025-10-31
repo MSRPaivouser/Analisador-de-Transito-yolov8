@@ -80,9 +80,9 @@ grafico_barras_quantidade.png
 
 grafico_de_pizza.png
 
-Arquivo de vídeo analisado (exemplo: Traffic.mp4)
+Arquivo de vídeo analisado: Traffic.mp4
 
-🧩 Bibliotecas Utilizadas
+🤖 Tecnologias Usadas:
 
 ultralytics → Utiliza o modelo YOLOv8 para detecção de objetos.
 
