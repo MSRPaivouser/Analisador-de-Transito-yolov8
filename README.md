@@ -94,6 +94,18 @@ matplotlib → Visualização dos dados (barras e pizza).
 
 os → Criação e organização de diretórios de resultados.
 
+⚙️ Escolha do Modelo YOLOv8 (x, m ou n)
+
+No código do projeto, o modelo usado é definido na linha em que o YOLO é carregado, por exemplo:
+modelo = YOLO("yolov8x.pt")
+
+Esse nome pode ser alterado para yolov8m.pt ou yolov8n.pt, dependendo do desempenho que você deseja.
+Cada uma dessas versões representa um tamanho diferente da rede neural e, por isso, influencia diretamente na velocidade, precisão e uso de memória RAM do programa.
+
+O modelo yolov8n.pt (nano) é o mais leve e rápido, porém com precisão um pouco menor. É ideal para computadores com hardware mais simples ou vídeos muito longos, já que consome pouca memória e roda de forma mais fluida.
+O yolov8m.pt (medium) é o modelo intermediário, que oferece um equilíbrio entre desempenho e qualidade de detecção. Ele é o mais indicado para a maioria dos casos, pois mantém boa precisão sem exigir muito do sistema.
+Já o yolov8x.pt (extra large) é o modelo mais completo e preciso, capaz de reconhecer objetos com maior confiabilidade, mas é também o mais pesado. Ele pode ser mais lento e consumir mais memória RAM, sendo recomendado para máquinas mais potentes ou vídeos curtos.
+
 🏗️ Como Executar o Projeto
 
 Clone o repositório do projeto no GitHub.
